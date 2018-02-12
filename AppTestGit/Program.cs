@@ -13,6 +13,8 @@ namespace AppTestGit
             try
             {
                 Console.WriteLine("Versão inicial.");
+                Console.WriteLine("Versão sprint1.");
+                Console.WriteLine("Versão sprint2.");
                 Console.ReadKey();
             }
             catch (Exception e)
