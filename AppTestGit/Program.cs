@@ -12,7 +12,7 @@ namespace AppTestGit
         {
             try
             {
-                Console.WriteLine("Versão inicial");
+                Console.WriteLine("Versão inicial...");
                 Console.ReadKey();
             }
             catch (Exception e)
