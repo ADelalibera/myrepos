@@ -12,8 +12,8 @@ namespace AppTestGit
         {
             try
             {
-                Console.WriteLine("Versão inicial...");
-                Console.ReadKey();
+                var res = new Calculo().Somar(5, 3, 1);
+                Console.WriteLine("resultado => {0}",res);
             }
             catch (Exception e)
             {
@@ -21,9 +21,6 @@ namespace AppTestGit
             }
         }
 
-        public int soma(int x, int y)
-        {
-            return x + y;
-        }
+
     }
 }
