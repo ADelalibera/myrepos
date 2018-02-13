@@ -20,5 +20,10 @@ namespace AppTestGit
                 Console.WriteLine(e.Message);
             }
         }
+
+        public int soma(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
