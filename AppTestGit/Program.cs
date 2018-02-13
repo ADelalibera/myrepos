@@ -20,7 +20,5 @@ namespace AppTestGit
                 Console.WriteLine(e.Message);
             }
         }
-
-
     }
 }
